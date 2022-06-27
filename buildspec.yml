@@ -30,3 +30,5 @@ artifacts:
   files:
     - imagedefinitions.json
     - target/rmnd.jar
+    - src/**/*
+    - package.json
