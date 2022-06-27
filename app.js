@@ -24,7 +24,7 @@ const my_route = ruta.get("/:id", (req,res)=>{
 
 app.use("/dinos",my_route);
 app.get('/', (req,res)=>{
-    res.send({"message":"Microservicio de Dinosaurios"})
+    res.send({"message":"Christian EDuardo Galdámez Blanco"})
 });
 
 app.listen(port, function () {
