@@ -24,7 +24,7 @@ const my_route = ruta.get("/:id", (req,res)=>{
 
 app.use("/dinos",my_route);
 app.get('/', (req,res)=>{
-    res.send({"message":"Christian EDuardo Galdámez Blanco"})
+    res.send({"message":"Aquí ya no está, Christian EDuardo Galdámez Blanco, está Ramsés Camas"})
 });
 
 app.listen(port, function () {
